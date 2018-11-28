@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: bangalore
+  labels:
+    country: india
+spec:
+  containers:
+  - name: karnataka
+    image: nginx
+    ports:
+      - containerPort: 80

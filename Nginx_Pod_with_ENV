@@ -9,7 +9,9 @@ spec:
   - name: nginx1
     image: nginx
     env:
-    - name: ENVR
+    - name: Demo
       value: "ve"
+    - name: test
+      value: success
     ports:
       - containerPort: 80

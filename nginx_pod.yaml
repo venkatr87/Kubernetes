@@ -1,9 +1,9 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: bangalore
+  name: nginx
   labels:
-    country: india
+    country: India
 spec:
   containers:
   - name: karnataka

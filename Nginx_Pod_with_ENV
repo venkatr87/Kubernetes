@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nginx
+  labels:
+    country: India
+spec:
+  containers:
+  - name: nginx1
+    image: nginx
+    env:
+    - name: ENVR
+      value: "ve"
+    ports:
+      - containerPort: 80
